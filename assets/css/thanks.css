@@ -1,0 +1,29 @@
+.thanks-wd {
+  width: 80%;
+  margin: 3rem 0;
+}
+
+.title_thanks {
+  color: #c0c0c0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container_thanks {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container_thanks p {
+  color: #d7a31a;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.container_thanks i {
+  font-size: 10rem;
+  color: #c0c0c0;
+}

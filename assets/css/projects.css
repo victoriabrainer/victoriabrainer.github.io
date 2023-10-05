@@ -1,0 +1,22 @@
+/* #### PROJECTS PAGE #### */
+
+.cards-bg {
+  background-image: linear-gradient(#424242, #2c2c2c);
+}
+
+.cards-bg:hover {
+  background-image: linear-gradient(#181818, #2c2c2c, #0a2a50);
+}
+
+.main-projects_section {
+  padding: 1.5rem 2rem 4.5rem 2rem;
+}
+
+.projects-container_page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2.5rem;
+}
+
+/* #### END PROJECTS PAGE #### */

@@ -1,0 +1,84 @@
+/* #### INTRO #### */
+
+#scene-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0a0a2a, #2a0a50, #0a2a50);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Autotyping effect */
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+
+.main-container {
+  width: 40.75rem;
+  overflow: hidden;
+}
+
+.main-container .main-container__title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #f7f7f7;
+}
+
+.main-container .main-container__text {
+  position: relative;
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #d7a31a;
+}
+
+.main-container .main-container__text.first-text {
+  color: #f7f7f7;
+}
+
+.second-text::after {
+  content: '|';
+  display: inline-block;
+  animation: blink-caret 0.75s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* #### END INTRO #### */

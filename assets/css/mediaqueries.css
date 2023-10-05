@@ -1,0 +1,259 @@
+/* #### MEDIA QUERIES #### */
+
+@media screen and (max-width: 620px) {
+  /* ## MAIN INTRO ## */
+  .main-container {
+    width: 16.75rem;
+  }
+
+  .main-container .main-container__title {
+    font-size: 0.95rem;
+  }
+
+  .main-container .main-container__text {
+    font-size: 1.8rem;
+  }
+
+  /* ## PROJECTS SECTION ## */
+  .cards-section {
+    width: 16rem;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 768px) {
+  /* ## MAIN INTRO ## */
+  .main-container {
+    width: 33.75rem;
+  }
+
+  .main-container .main-container__title {
+    font-size: 1.1rem;
+  }
+
+  .main-container .main-container__text {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* ## GENERICS ## */
+  .title-bg {
+    font-size: 1.9rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  /* ## HEADER ## */
+  .logo h2 {
+    font-size: 1.3rem;
+  }
+
+  .navbar {
+    padding: 1.5rem 4rem;
+    gap: 5rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-menu-icon button {
+    font-size: 1.3rem;
+    color: #f7f7f7;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .show-icon {
+    display: flex;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  /* MAIN */
+  main {
+    padding-top: 70px;
+  }
+
+  /* ## MAIN INTRO 2 ## */
+  .second-section__about {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  /* ## MAIN ABOUT SECTION ## */
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .about-details__title {
+    font-size: 1rem;
+  }
+
+  .third-section__details .about-details__description,
+  .about-details__list {
+    font-size: 0.9rem;
+  }
+
+  /* ## MAIN SKILLS SECTION ## */
+  .skills-section .row {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-section .row .item-text {
+    font-size: 0.85rem;
+  }
+
+  /* ## FOOTER ## */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .footer-contacts,
+  .footer-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-copyright p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  /* ## PROJECTS PAGE ## */
+  .projects-container_page {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .cards {
+    max-width: 18rem;
+  }
+
+  .cards .cards-content {
+    width: 100%;
+  }
+
+  /* ## THANKS PAGE ## */
+  .title_thanks {
+    font-size: 1.5rem;
+  }
+
+  .container_thanks p {
+    font-size: 0.9rem;
+  }
+
+  .container_thanks i {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 728px) and (max-width: 1030px) {
+  /* ## PROJECTS PAGE ## */
+  .projects-container_page {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  /* ## PROJECTS SECTION ## */
+  .cards-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  /* ## PROJECTS SECTION ## */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1030px) {
+  /* ## HEADER ## */
+  .navbar {
+    gap: 12rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* ## CONTACT PAGE ## */
+  .form-contact {
+    gap: 1.7rem;
+    height: 40rem;
+  }
+
+  .form-contact input {
+    min-height: 2.5rem;
+  }
+
+  .form-contact textarea {
+    min-height: 13.5rem;
+  }
+}
+
+@media screen and (min-width: 2460px) {
+  html {
+    font-size: 1.6rem;
+  }
+
+  /* ## GENERICS ## */
+  .title-bg {
+    font-size: 3.2rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  /* ## MAIN INTRO ## */
+  .main-container {
+    width: 55.75rem;
+  }
+
+  .main-container .main-container__title {
+    font-size: 2rem;
+  }
+
+  .main-container .main-container__text {
+    font-size: 3.7rem;
+  }
+
+  /* ## PROJECTS SECTION ## */
+  .cards-section {
+    width: 100%;
+  }
+}
+
+/* #### END MEDIA QUERIES #### */
